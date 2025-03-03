@@ -71,7 +71,7 @@ rmse = sqrt(mse)
 mae = mean(abs.(errors_train))                                            
 mape = mean(abs.(y_model-y_train)./y_train)*100  
 
-println("Greske: ")
+println("Errors: ")
 println("RMSE = $rmse")
 println("MSE = $mse")  
 println("MAE = $mae")
